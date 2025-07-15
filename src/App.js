@@ -6,6 +6,8 @@ import CartPage from './pages/CartPage';
 import NotFound from './pages/NotFound';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Returns from './pages/Returns';
+import Checkout from './pages/Checkout';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/productos" element={<Products />} />
           <Route path="/carrito" element={<CartPage />} />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/devoluciones" element={<Returns />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

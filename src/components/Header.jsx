@@ -11,6 +11,8 @@ const Header = () => {
         <Link className={location.pathname === '/' ? 'active' : ''} to="/">Inicio</Link>
         <Link className={location.pathname === '/productos' ? 'active' : ''} to="/productos">Productos</Link>
         <Link className={location.pathname === '/carrito' ? 'active' : ''} to="/carrito">Carrito</Link>
+        <Link className={location.pathname === '/checkout' ? 'active' : ''} to="/checkout">Pagar</Link>
+        <Link className={location.pathname === '/devoluciones' ? 'active' : ''} to="/devoluciones">Devoluciones</Link>
       </nav>
     </header>
   );
