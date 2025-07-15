@@ -87,7 +87,7 @@ const mockProducts = [
     brand: 'SportyMX',
     shortDesc: 'La comodidad de tus pies.',
     longDesc: 'Tenis fitness ligeros y cómodos, ideales para entrenamiento en gimnasio o actividades deportivas. Suela flexible y diseño transpirable.',
-    price: 320,
+    price: 620,
     image: 'https://m.media-amazon.com/images/I/71e2dkrxp5L._UY900_.jpg'
   },
   {
@@ -96,7 +96,7 @@ const mockProducts = [
     brand: 'SportyMX',
     shortDesc: 'Portección de tus manos.',
     longDesc: 'Guantes de gym para mujer con protección acolchada, cómodos y antideslizantes.',
-    price: 320,
+    price: 210,
     image: 'https://m.media-amazon.com/images/I/71srU6wr09L._AC_SX679_.jpg'
   }
 ];
