@@ -91,7 +91,7 @@ const mockProducts = [
     image: 'https://m.media-amazon.com/images/I/71e2dkrxp5L._UY900_.jpg'
   },
   {
-    id: 3,
+    id: 5,
     name: 'Guantes para Gym Mujer con Protección',
     brand: 'SportyMX',
     shortDesc: 'Portección de tus manos.',
